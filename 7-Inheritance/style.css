@@ -34,3 +34,6 @@ background-color: #fff;
     height:60px;
     font-size: 24px;
 }
+.ghost{
+    background-color: transparent;
+}
