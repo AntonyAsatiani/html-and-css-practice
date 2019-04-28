@@ -1,0 +1,24 @@
+
+.articles-detail{
+	width:300px;
+	height:500px;
+	border:1px solid #f4f4f4;
+	display:inline-block;
+	margin-left:20px;
+}
+.articles-detail img{
+	width:300px;
+	object-fit: cover;
+	height:400px;
+	
+}
+.articles-detail span{
+	text-align: center;
+	display:block;
+}
+.articles-detail a{
+	text-align: center;
+	display:block;
+	margin-top:10px;
+	color:#bcb6b3;
+}
