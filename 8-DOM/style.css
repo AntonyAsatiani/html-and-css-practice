@@ -1,24 +1,77 @@
 
-.articles-detail{
-	width:300px;
-	height:500px;
-	border:1px solid #f4f4f4;
+h5{
+	margin: 0 auto;
+}
+.block{
+	display: inline-block;
+	margin-left:10px;
+}
+.list{
+	list-style: none;
+	margin-bottom: 5px;
+
+}
+.list li img {
+	padding-right: 10px;
+	width:15px;
+}
+.list-items{
+	width: 400px;
+	box-sizing: border-box;
+	border: 1px solid #dee5ef;
+	color:#878b91;
+}
+.list-items span{
 	display:inline-block;
+	margin-left: 40px;
+	margin-bottom:5px;
+}
+.list-second{
+	width: 400px;
+	border: 1px solid #dee5ef;
+	border-top-width: 1px;
+	padding-left:20px;
+	box-sizing: border-box;
+	color:#878b91;
+}
+.list-second h5{
+	margin-left: 20px;
+	margin-top: 10px;
+	color:#878b91;
+
+}
+.files-count{
+	color:#878b91;	
 	margin-left:20px;
-}
-.articles-detail img{
-	width:300px;
-	object-fit: cover;
-	height:400px;
-	
-}
-.articles-detail span{
-	text-align: center;
-	display:block;
-}
-.articles-detail a{
-	text-align: center;
-	display:block;
+	display: block;
 	margin-top:10px;
-	color:#bcb6b3;
+	font-size:20px;
+}
+.list-user{
+	margin-top:20px;
+}
+.list-user img{
+	border-radius: 50px 50px 50px 50px;
+	width:30px;
+	height:30px;
+	margin-left: 20px;
+}
+.list-user p 	{
+	display:inline;
+}
+.list-user span{
+	display:block;
+	margin-left:54px;
+}
+.list-bottom img{
+	padding-left:20px;
+	width:15px;
+	height: 15px;
+}
+.list-bottom img:last-child{
+float:right;
+margin-right:5px;
+}
+.list-bottom span{
+	float:right;
 }
