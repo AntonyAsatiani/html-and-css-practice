@@ -1,0 +1,15 @@
+.image{
+	position:relative;
+	width:284px;
+	height:200px;
+	background-image:url('assets/images.jpg');
+}
+.image h3{
+	display:inline-block;
+	color:white;
+	position:absolute;
+	top:30%;
+	left:50%;
+	padding-right: 142px;
+
+}
