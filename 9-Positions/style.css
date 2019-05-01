@@ -1,15 +1,61 @@
 .image{
 	position:relative;
-	width:284px;
-	height:200px;
-	background-image:url('assets/images.jpg');
+	width:300px;
+	height:450px;
+	background-image:url('assets/image-2.jpg');
 }
-.image h3{
+.image h1{
 	display:inline-block;
 	color:white;
 	position:absolute;
-	top:30%;
-	left:50%;
-	padding-right: 142px;
-
+	top:10%;
+	left:10%;
+}
+.image h1::first-letter{
+color:orange;
+}
+.background{
+	position: relative;
+	top: 14%;
+	left: 10%;
+	background-color: white;
+	width: 25px;
+	height: 35px;
+}
+.image p{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	color:#fff;
+}
+.left{
+	width:20px;
+	height:20px;
+	position:absolute;
+    top: 45%;
+    left: 3%;
+	background-color: white;
+}
+.right{
+	width:20px;
+	height:20px;
+	position:absolute;
+    top: 45%;
+    left: 90%;
+	background-color: white;
+}
+.bottom{
+	
+	width:50px;
+	height:30px;
+	background-color: orange;
+	position: absolute;
+	top:90%;
+	left:40%;
+}
+.bottom h3{
+	display: block;
+	margin-top:5px;
+	margin-left: 2px;
+	color:#fff;
 }
