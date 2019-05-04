@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+.box{
+	height: 600px;
+	width:600px;
+	border:1px solid black;
+}
+.row{
+	clear:both;
+}
+.top{
+	width:600px;
+	hegith:200px;
+	border:1px solid black;
+}
+.top .top-left{
+	float:left;
+	width:300px;
+	height:200px;
+	background-color: red;
+}.top .top-right{
+	float:right;
+	width:298px;
+	height:200px;
+	background-color: grey;
+}
+.middle{
+	width:600px;
+	hegith:200px;
+	border:1px solid black;
+}
+.middle .middle-left{
+	float:left;
+	width:300px;
+	height:200px;
+	background-color: grey;
+}.middle .middle-right{
+	float:right;
+	width:298px;
+	height:200px;
+	background-color: grey;
+}
+.bottom{
+	width:600px;
+	hegith:200px;
+	border:1px solid black;
+}
+.bottom .bottom-left{
+
+	float:left;
+}
+.bottom .bottom-left .col-1{
+	width:100px;
+	height:197px;
+	border:1px solid black;
+	background-color: yellow;
+	float:left;
+}
+.bottom .bottom-left .col-2{
+	float:right;
+	width:197px;
+	height:197px;
+	border:1px solid black;
+	background-color: grey;
+}
+
+.bottom .bottom-right .col-1{
+	float:left;
+	background-color: grey;
+	width:197px;
+	height:195px;
+	border:1px solid black;
+}
+.bottom .bottom-right .col-1 .col-1-1{
+	float:left;
+	background-color: purple;
+	width:197px;
+	height:165px;
+	border:1px solid black;
+}
