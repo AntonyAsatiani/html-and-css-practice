@@ -133,3 +133,203 @@ header p span:last-child::after{
     margin-top:9px;
     line-height:23px;
 }
+
+.container{
+    width:1176px;
+    margin: auto;
+    margin-top:108px;
+
+}
+.header-1 h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    color:#34495E;
+}
+.header-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    color:#A1B1BC;
+    padding-top:11px;
+    line-height: 23px;
+}
+.list{
+    display: flex;
+    margin-top:23px;
+}
+.list ul {
+    margin-top:5px;
+    display: inline-block;
+}
+.list ul li {
+    position:relative;
+    bottom:6px;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    padding-bottom:11px;
+    margin-left:35px;
+}
+.list ul li::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #34495E;
+    position: absolute;
+    border-radius: 2px;
+    border:1px solid #34495E;
+    left: -34px;
+    top: 6px;
+}
+.list ul:nth-child(2)::before{
+  display: none;
+}
+.list .list-2{
+    margin-left:64px;
+}
+.list-2  ul li:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    position: absolute;
+    border-radius: 2px;
+    border:1px solid #34495E;
+    left: -34px;
+    top: 6px;
+
+}
+.list .list-3{
+    margin-left:64px;
+}
+.Text{
+    margin-top:25px;
+}
+.Text .text-1 h3{
+    font-family: Roboto;
+    font-size:30px;
+    font-style: normal;
+    font-weight: 300;
+    color:#34495E;
+}
+.Text .text-1 p{
+    margin-top:12px;
+    font-family: Roboto;
+    font-size:14px;
+    font-style: normal;
+    color:#A1B1BC;
+    line-height: 23px;
+}
+.note-style{
+    width:1170px;
+    height: 196px;
+    background-color:#ECF0F1;
+}
+.note-style p{
+    padding:33px 32px 5px;
+    color: #A1B1BC;
+    margin-left: 1px;
+    margin-bottom: 24px;
+}
+.note-style span{
+    display: block;
+    padding-left: 16px;
+    padding-top: 6px;
+}
+.text-2-2{
+    margin-top:23px;
+}
+.text-2-2 p{
+    font-family: Roboto;
+    font-size:14px;
+    font-style: normal;
+    color:#A1B1BC;
+    line-height: 23px;
+}
+.text-3{
+    margin-top:23px;
+    display:flex;
+    flex-direction: row;
+}
+.poster-text{
+    width:390px;
+    height:400px;
+    background-color:#ECF0F1;
+    flex-grow: 2;
+  
+   
+}
+.text-3 p{
+    flex-grow: 1;
+    width:68%;
+    margin-left:27px;
+    font-family: Roboto;
+    font-size:14px;
+    font-style: normal;
+    color:#A1B1BC;
+    line-height: 23px;
+}
+
+.tags{
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    margin-top: 39px;
+}
+.tags span {
+    color: #ECF0F1;
+    background: #34495E;
+    font-size: 28px;
+    padding: 12px 11px 17px 12px;
+}
+.tags p {
+    padding-left: 20px;
+    padding-top: 15px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+.tags a {
+   color:#1ABC9C; 
+}
+.profile {
+    padding: 75px 30px 8px;
+    background: #F9FBFB;
+  
+}
+.profile  .image {
+    background: #A1B1BC;
+    width: 105px;
+    height: 104px;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    float:left;
+    margin-top: 2px;
+    margin-right: 28px;
+}
+.profile h3 {
+    font-size:18px;
+    color:#2C3E50;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.profile span {
+    color:#A1B1BC;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.profile p {
+    font-size:14px;
+    line-height: 24px;
+    color:#A1B1BC;
+    font-style: italic;
+    margin-top: 8px;
+} 
