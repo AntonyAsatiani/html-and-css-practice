@@ -3,3 +3,133 @@
     padding:0;
     margin:0;
 }
+article{
+    width:1170px;
+    margin:auto;
+    margin-top:150px;
+}
+
+.poster{
+    width:1170px;
+    height:800px;
+    background-color:#ECF0F1;
+}
+header{
+    margin-top:39.4px;
+    padding-top:7px;
+    
+}
+header h3{
+font-family: Roboto;
+font-style:normal;
+font-size:36px;
+font-weight: 400;
+color:#2C3E50;
+line-height: 36px
+}
+header p{
+    margin-top:9px;
+    font-family: Roboto;
+    font-style:normal;
+    font-size:14px;
+    line-height: 36px;
+    color:#A1B1BC;
+    letter-spacing: -0.1px;
+    width: 101%;
+    word-spacing: -0.8px;
+    padding-bottom:20px;
+    border-bottom:1px solid #ECF0F1;
+}
+header p span::after{
+    width:1px;
+    height: 12px;
+    content:"";
+    background-color: #EBEBEB;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:13px;
+    margin-left:13px;
+}
+header p span:last-child::after{
+    display: none;
+}
+.text{
+    margin-top:23px;
+    widows: 1169.66px;
+}
+.text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-size:14px;
+    color:#A1B1BC;
+    line-height: 23px;
+  
+}
+.note{
+    margin-top:40px;
+    margin-left:30px;
+    height:165px;
+    border:1px solid #ECF0F1;
+    border-left:9px solid #21C2F8;
+    padding-left:60px;
+    padding-top:37px;
+}
+.note h4{
+    font-family: Roboto;
+    font-style:normal;
+    font-size:24px;
+    color:#A1B1BC;
+    font-weight: 400;
+
+}
+.note p{
+    margin-top:5px;
+    font-family: Roboto;
+    font-style:normal;
+    line-height: 26px;
+    font-size:16px;
+    color:#A1B1BC;
+    font-weight: 400;
+    width:80%;
+
+}
+.text-2{
+    margin-top:28px;
+}
+.text-2 p{
+    font-family: Roboto;
+    font-style:normal;
+    line-height: 23px;
+    font-size:14px;
+    color:#A1B1BC;
+}
+.text-2 p span{
+    background: #34495E;
+    color: #21C2F8;
+    float: left;
+    margin-right: 4px;
+    font-family: 'Roboto';
+    font-size: 31px;
+    margin-top: 7px;
+    padding: 6px 12px;
+    height: 38px;
+}
+.heading-2{
+    margin-top:34px;
+  
+}
+.heading-2 h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    color:#34495E;
+}
+.heading-2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size:14px;
+    color:#A1B1BC;
+    margin-top:9px;
+    line-height:23px;
+}
